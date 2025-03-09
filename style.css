@@ -72,10 +72,6 @@ https://developer.mozilla.org/ru/docs/Web/CSS/@media
   font-size: 6.667vw;
   margin-bottom: 1.667vw;
 }
-
-a {
-  text-decoration: none;
-  color: var(--text-color);
   /*
   Поменяем курсор на котика из Шрека при наведении на ссылку
   Важно сделать это здесь, а не в псевдо-классе :hover
