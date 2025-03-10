@@ -16,10 +16,6 @@
   --background-color: #101010;
 }
 
-html {
-  cursor: url("/bug.ico") 40 45, auto;
-}
-
 
 body {
   padding: 10vw 3.333vw;
@@ -29,6 +25,11 @@ body {
   letter-spacing: -0.1vw;
   background-color: var(--background-color);
   color: white;
+}
+
+body,
+label {
+  cursor: url(bug.png), default !important;
 }
 
 .name {
@@ -56,7 +57,6 @@ body {
 a {
   text-decoration: none;
   color: var(--text-color);
-  cursor: url("/bug.ico") 40 45, auto;
 }
 
 a:hover {
