@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <title>Simple slider</title>
 
   <title>Гена</title>
   <link rel="icon" href="favicon.ico">
@@ -13,6 +16,9 @@
 
 <body>
   <div class="name">ГЕНА СУВОРИН</div>
+  <div class="block">
+    <div class="name">QA Engineer</div>
+  </div>
 
   <div class="block">
     <div class="block-title">на связи</div>
@@ -55,6 +61,23 @@
       </a>
     </div>
   </div>
+  <div class="sim-slider">
+    <div class="sim-slider">
+      <ul class="sim-slider-list">
+        <li><img src="screen.gif" alt="screen"></li> <!-- это экран -->
+        <li class="sim-slider-element"><img src="cat meme.jpg" alt="1"></li>
+        <li class="sim-slider-element"><img src="monkey meme.jpg" alt="2"></li>
+        <li class="sim-slider-element"><img src="semicolon meme.jpg" alt="N"></li>
+        <li class="sim-slider-element"><img src="csrf xss meme.jpg" alt="N"></li>
+        <li class="sim-slider-element"><img src="earbuds meme.jpg" alt="N"></li>
+      </ul>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+      <div class="sim-slider-dots"></div>
+    </div>
+  </div>
+  <script src="sim-slider.js"></script>
+  <script>new Sim()</script>
 </body>
 
 </html>
